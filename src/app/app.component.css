@@ -1,0 +1,44 @@
+footer {
+    bottom: 0;
+}
+
+#navbar{
+    background-color: #2E4052;
+    position: -webkit-sticky;
+    position: fixed;
+    width: 100%;
+	top: 0;
+    z-index: 1000;
+}
+
+.icons{
+    margin-left: 10%;
+} 
+
+li {
+    text-decoration: none;
+}
+
+#logo {
+    width: 100%;
+    max-width: 95px;
+    height: auto;
+}
+
+#logo-small {
+    margin-right: -5px;
+}
+
+#user-indicator{
+    color: white;
+    display: flex;
+    border: none;
+} 
+
+#loggedUser{
+    margin-top: 10px;
+}
+
+#user-indicator:focus {
+    border: none;
+}
